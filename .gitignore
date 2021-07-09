@@ -1,0 +1,41 @@
+
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+SFAXSwap-Frontend/sftp-config.json
+# dependencies
+SFAXSwap-Frontend/node_modules
+
+# testing
+SFAXSwap-Frontend/coverage
+
+# production
+SFAXSwap-Frontend/build
+
+# misc
+SFAXSwap-Frontend/.DS_Store
+SFAXSwap-Frontend/.env.local
+SFAXSwap-Frontend/.env.development.local
+SFAXSwap-Frontend/.env.test.local
+SFAXSwap-Frontend/.env.production.local
+SFAXSwap-Frontend/.env
+SFAXSwap-Frontend/.env.development
+SFAXSwap-Frontend/.env.test
+SFAXSwap-Frontend/.env.production
+
+SFAXSwap-Frontend/.netlify
+
+SFAXSwap-Frontend/npm-debug.log*
+SFAXSwap-Frontend/yarn-debug.log*
+SFAXSwap-Frontend/yarn-error.log*
+
+SFAXSwap-Frontend/notes.txt
+SFAXSwap-Frontend/.idea/
+
+SFAXSwap-Frontend/.vscode/
+
+SFAXSwap-Frontend/package-lock.json
+
+SFAXSwap-Frontend/cypress/videos
+SFAXSwap-Frontend/cypress/screenshots
+SFAXSwap-Frontend/cypress/fixtures/example.json
+
+SFAXSwap-Frontend/.eslintcache
