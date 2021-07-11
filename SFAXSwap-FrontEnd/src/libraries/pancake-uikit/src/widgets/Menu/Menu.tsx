@@ -64,8 +64,8 @@ export const Menu: React.FC<NavProps> = ({
   account,
   login,
   logout,
-  isDark,
-  toggleTheme,
+  // isDark,
+  // toggleTheme,
   children,
 }) => {
   const { isXl } = useMatchBreakpoints();
@@ -112,7 +112,7 @@ export const Menu: React.FC<NavProps> = ({
         <Logo
           isPushed={isPushed}
           togglePush={() => setIsPushed((prevState: boolean) => !prevState)}
-          isDark={isDark}
+          // isDark={isDark}
           href={homeLink?.href ?? "/"}
         />
         {!!login && !!logout && (
@@ -126,8 +126,8 @@ export const Menu: React.FC<NavProps> = ({
           isPushed={isPushed}
           isMobile={isMobile}
           showMenu={showMenu}
-          isDark={isDark}
-          toggleTheme={toggleTheme}
+          // isDark={isDark}
+          // toggleTheme={toggleTheme}
           pushNav={setIsPushed}
           links={links}
         />

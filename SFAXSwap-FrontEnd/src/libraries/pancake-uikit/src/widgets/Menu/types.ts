@@ -47,8 +47,8 @@ export interface MenuEntry {
 }
 
 export interface PanelProps {
-  isDark: boolean;
-  toggleTheme: (isDark: boolean) => void;
+  // isDark: boolean;
+  // toggleTheme: (isDark: boolean) => void;
   links: Array<MenuEntry>;
 }
 

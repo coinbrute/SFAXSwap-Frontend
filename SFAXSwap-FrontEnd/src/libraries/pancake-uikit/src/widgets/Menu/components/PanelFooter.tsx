@@ -35,8 +35,8 @@ const SocialEntry = styled.div`
 const PanelFooter: React.FC<Props> = ({
   isPushed,
   pushNav,
-  toggleTheme,
-  isDark
+  // toggleTheme,
+  // isDark
 }) => {
   if (!isPushed) {
     return (
@@ -53,9 +53,9 @@ const PanelFooter: React.FC<Props> = ({
       <SocialEntry>
         <SocialLinks />
       </SocialEntry>
-      <SettingsEntry>
+      {/* <SettingsEntry>
         <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
-      </SettingsEntry>
+      </SettingsEntry> */}
     </Container>
   );
 };

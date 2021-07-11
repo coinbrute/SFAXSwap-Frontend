@@ -10,10 +10,10 @@ const Container = styled.div`
   width: 100%;
   padding: 32px 16px;
 
-  background-image: url('/images/group-pancake.svg');
-  background-repeat: no-repeat;
-  background-position: bottom 24px center;
-  background-size: 90%;
+  background-image: url('/images/sfax_stars.png');
+  // background-repeat: no-repeat;
+  // background-position: bottom 24px center;
+  // background-size: 90%;
 
   ${({ theme }) => theme.mediaQueries.xs} {
     background-size: auto;
@@ -21,10 +21,10 @@ const Container = styled.div`
 
   ${({ theme }) => theme.mediaQueries.lg} {
     background-image: url('/images/arch-${({ theme }) => (theme.isDark ? 'dark' : 'light')}.svg'),
-      url('/images/left-pancake.svg'), url('/images/right-pancake.svg');
+      url('/images/sfax_stars.png');
     background-repeat: no-repeat;
-    background-position: center 420px, 10% 230px, 90% 230px;
-    background-size: contain, 266px, 266px;
+    // background-position: center 420px, 10% 230px, 90% 230px;
+    // background-size: contain, 266px, 266px;
     min-height: 90vh;
   }
 `
