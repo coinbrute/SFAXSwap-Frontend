@@ -4,7 +4,7 @@ import { WalletConnectConnector } from '@web3-react/walletconnect-connector'
 import { WalletLinkConnector } from '@web3-react/walletlink-connector'
 import { BscConnector } from '@binance-chain/bsc-connector'
 import { NetworkConnector } from './NetworkConnector'
-import { ConnectorNames } from '../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { ConnectorNames } from '../libraries/pancake-uikit/index'
 
 const NETWORK_URL = process.env.REACT_APP_NETWORK_URL
 

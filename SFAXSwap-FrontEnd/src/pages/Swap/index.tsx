@@ -35,7 +35,7 @@ import useI18n from 'hooks/useI18n'
 import PageHeader from 'components/PageHeader'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import AppBody from '../AppBody'
-import { CardBody, ArrowDownIcon, Button, IconButton, Text, useModal, Link, Flex } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { CardBody, ArrowDownIcon, Button, IconButton, Text, Link, Flex } from '../../libraries/pancake-uikit/index'
 
 const StyledLink = styled(Link)`
   display: inline;

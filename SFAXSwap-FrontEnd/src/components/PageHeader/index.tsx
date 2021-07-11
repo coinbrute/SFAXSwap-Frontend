@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import useI18n from 'hooks/useI18n'
 import SettingsModal from './SettingsModal'
 import RecentTransactionsModal from './RecentTransactionsModal'
-import { Heading, IconButton, Text, Flex, useModal, TuneIcon, HistoryIcon } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Heading, IconButton, Text, Flex, useModal, TuneIcon, HistoryIcon } from '../../libraries/pancake-uikit/index'
 
 interface PageHeaderProps {
   title: ReactNode

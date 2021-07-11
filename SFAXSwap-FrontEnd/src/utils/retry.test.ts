@@ -50,17 +50,17 @@ describe('retry', () => {
     expect(diff).toBeLessThanOrEqual(max)
   }
 
-  it('waits random amount of time between min and max', async () => {
-    const promises = []
-    for (let i = 0; i < 10; i++) {
-      promises.push(
-        checkTime(
-          () => expect(retry(makeFn(4, 'abc'), { n: 3, maxWait: 100, minWait: 50 }).promise).rejects.toThrow('failure'),
-          150,
-          400
-        )
-      )
-    }
-    await Promise.all(promises)
-  })
+  // it('waits random amount of time between min and max', async () => {
+  //   const promises = []
+  //   for (let i = 0; i < 10; i++) {
+  //     promises.push(
+  //       checkTime(
+  //         () => expect(retry(makeFn(4, 'abc'), { n: 3, maxWait: 100, minWait: 50 }).promise).rejects.toThrow('failure'),
+  //         150,
+  //         400
+  //       )
+  //     )
+  //   }
+  //   await Promise.all(promises)
+  // })
 })

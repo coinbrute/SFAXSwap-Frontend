@@ -3,7 +3,7 @@ import React, { Fragment, memo, useContext } from 'react'
 import { ChevronRight } from 'react-feather'
 import { ThemeContext } from 'styled-components'
 import CurrencyLogo from '../CurrencyLogo'
-import { Flex, Text } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Flex, Text } from '../../libraries/pancake-uikit/index'
 
 export default memo(function SwapRoute({ trade }: { trade: Trade }) {
   const theme = useContext(ThemeContext)

@@ -7,7 +7,7 @@ import { AutoColumn } from '../Column'
 import QuestionHelper from '../QuestionHelper'
 import { AutoRow } from '../Row'
 import CurrencyLogo from '../CurrencyLogo'
-import { Text } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Text } from '../../libraries/pancake-uikit/index'
 
 const BaseWrapper = styled.div<{ disable?: boolean }>`
   border: 1px solid ${({ theme, disable }) => (disable ? 'transparent' : theme.colors.tertiary)};

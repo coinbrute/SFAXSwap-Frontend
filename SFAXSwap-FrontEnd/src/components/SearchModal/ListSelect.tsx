@@ -19,7 +19,7 @@ import ListLogo from '../ListLogo'
 import QuestionHelper from '../QuestionHelper'
 import Row, { RowBetween } from '../Row'
 import { PaddedColumn, SearchInput, Separator, SeparatorDark } from './styleds'
-import { Button, Text, ChevronDownIcon, CloseIcon } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Button, Text, ChevronDownIcon, CloseIcon } from '../../libraries/pancake-uikit/index'
 
 const UnpaddedLinkStyledButton = styled(LinkStyledButton)`
   padding: 0;

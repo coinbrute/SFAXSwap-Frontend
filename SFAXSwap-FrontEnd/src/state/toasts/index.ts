@@ -1,6 +1,6 @@
 /* eslint-disable no-param-reassign */
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-import { Toast } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Toast } from '../../libraries/pancake-uikit/index'
 
 const initialState: ToastsState = {
   data: [],

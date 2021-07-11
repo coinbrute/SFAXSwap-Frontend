@@ -10,7 +10,7 @@ import { RowBetween, RowFixed } from '../Row'
 import FormattedPriceImpact from './FormattedPriceImpact'
 import { SectionBreak } from './styleds'
 import SwapRoute from './SwapRoute'
-import { Card, CardBody, Text } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Card, CardBody, Text } from '../../libraries/pancake-uikit/index'
 
 function TradeSummary({ trade, allowedSlippage }: { trade: Trade; allowedSlippage: number }) {
   const { priceImpactWithoutFee, realizedLPFee } = computeTradePriceBreakdown(trade)

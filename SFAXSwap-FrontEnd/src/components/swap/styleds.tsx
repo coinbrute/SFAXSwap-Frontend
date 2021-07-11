@@ -3,7 +3,7 @@ import React from 'react'
 import { AlertTriangle } from 'react-feather'
 import styled, { css } from 'styled-components'
 import { AutoColumn } from '../Column'
-import { Text } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Text } from '../../libraries/pancake-uikit/index'
 
 export const Wrapper = styled.div`
   position: relative;

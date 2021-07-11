@@ -5,7 +5,7 @@ import { ArrowUpCircle } from 'react-feather'
 import { AutoColumn } from '../Column'
 import { getBscScanLink } from '../../utils'
 import { Wrapper, Section, ConfirmedIcon, ContentHeader } from './helpers'
-import { Button, LinkExternal } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Button, LinkExternal } from '../../libraries/pancake-uikit/index'
 
 type TransactionSubmittedContentProps = {
   onDismiss: () => void

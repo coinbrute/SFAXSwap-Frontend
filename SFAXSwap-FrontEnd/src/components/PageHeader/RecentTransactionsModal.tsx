@@ -4,7 +4,7 @@ import { getBscScanLink } from 'utils'
 import { isTransactionRecent, useAllTransactions } from 'state/transactions/hooks'
 import { TransactionDetails } from 'state/transactions/reducer'
 import Loader from 'components/Loader'
-import { CheckmarkCircleIcon, ErrorIcon, Flex, LinkExternal, Text, Modal, Button } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { CheckmarkCircleIcon, ErrorIcon, Flex, LinkExternal, Text, Modal, Button } from '../../libraries/pancake-uikit/index'
 
 type RecentTransactionsModalProps = {
   onDismiss?: () => void

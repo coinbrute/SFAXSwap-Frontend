@@ -23,7 +23,7 @@ import { filterTokens } from './filtering'
 import SortButton from './SortButton'
 import { useTokenComparator } from './sorting'
 import { PaddedColumn, SearchInput, Separator } from './styleds'
-import { Text, CloseIcon } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Text, CloseIcon } from '../../libraries/pancake-uikit/index'
 
 interface CurrencySearchProps {
   isOpen: boolean

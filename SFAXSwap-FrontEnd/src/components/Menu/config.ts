@@ -1,19 +1,15 @@
-import { MenuEntry } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { MenuEntry } from '../../libraries/pancake-uikit/index'
 
 const config: MenuEntry[] = [
   {
-    label: 'Home',
+    label: 'Token Home',
     icon: 'HomeIcon',
-    href: 'https://pancakeswap.finance/',
+    href: 'https://www.safemoonmax.com/',
   },
   {
     label: 'Trade',
     icon: 'TradeIcon',
     initialOpenState: true,
-    status: {
-      text: 'MIGRATE',
-      color: 'warning',
-    },
     items: [
       {
         label: 'Exchange',

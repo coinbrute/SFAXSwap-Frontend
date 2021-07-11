@@ -11,7 +11,7 @@ import {
 } from '@web3-react/walletconnect-connector'
 import useToast from 'hooks/useToast'
 import { connectorsByName } from 'connectors'
-import { connectorLocalStorageKey, ConnectorNames } from '../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { connectorLocalStorageKey, ConnectorNames } from '../libraries/pancake-uikit/index'
 
 const useAuth = () => {
   const { activate, deactivate } = useWeb3React()

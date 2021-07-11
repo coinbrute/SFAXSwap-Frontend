@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import useToast from 'hooks/useToast'
 import { AppState } from '../../state'
-import { ToastContainer, Toast } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { ToastContainer, Toast } from '../../libraries/pancake-uikit/index'
 
 const ToastListener = () => {
   const toasts: Toast[] = useSelector((state: AppState) => state.toasts.data)

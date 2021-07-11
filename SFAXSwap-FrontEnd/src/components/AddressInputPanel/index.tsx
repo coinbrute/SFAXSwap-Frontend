@@ -7,7 +7,7 @@ import { ExternalLink } from '../Shared'
 import { AutoColumn } from '../Column'
 import { RowBetween } from '../Row'
 import { getBscScanLink } from '../../utils'
-import { Text } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Text } from '../../libraries/pancake-uikit/index'
 
 const InputPanel = styled.div`
   display: flex;

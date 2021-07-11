@@ -1,5 +1,5 @@
 import React from 'react'
-import { Modal } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Modal } from '../../libraries/pancake-uikit/index'
 import SlippageToleranceSetting from './SlippageToleranceSetting'
 import TransactionDeadlineSetting from './TransactionDeadlineSetting'
 import AudioSetting from './AudioSetting'

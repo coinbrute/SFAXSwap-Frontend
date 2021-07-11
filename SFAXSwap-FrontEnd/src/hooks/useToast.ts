@@ -6,7 +6,7 @@ import {
   remove as removeToast,
   clear as clearToast
 } from 'state/actions'
-import { Toast, toastTypes } from '../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Toast, toastTypes } from '../libraries/pancake-uikit/index'
 
 // Toasts
 const useToast = () => {

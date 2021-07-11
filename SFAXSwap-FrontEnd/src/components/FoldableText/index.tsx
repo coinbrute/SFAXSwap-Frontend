@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import { ExpandableLabel, Flex, FlexProps, Text } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { ExpandableLabel, Flex, FlexProps, Text } from '../../libraries/pancake-uikit/index'
 import useI18n from 'hooks/useI18n'
 
 interface FoldableTextProps extends FlexProps {

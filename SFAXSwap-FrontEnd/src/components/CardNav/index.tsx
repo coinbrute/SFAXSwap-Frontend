@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
 import useI18n from 'hooks/useI18n'
-import { ButtonMenu, ButtonMenuItem } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
 
 
 const StyledNav = styled.div`
@@ -12,25 +10,7 @@ const StyledNav = styled.div`
 function Nav({ activeIndex = 0 }: { activeIndex?: number }) {
   const TranslateString = useI18n()
   return (
-    <StyledNav>
-      <ButtonMenu activeIndex={activeIndex} scale="sm" variant="subtle">
-        <ButtonMenuItem id="swap-nav-link" to="/swap" as={Link}>
-          {TranslateString(1142, 'Swap')}
-        </ButtonMenuItem>
-        <ButtonMenuItem id="pool-nav-link" to="/pool" as={Link}>
-          {TranslateString(262, 'Liquidity')}
-        </ButtonMenuItem>
-        <ButtonMenuItem
-          id="pool-nav-link"
-          as="a"
-          href="https://www.binance.org/en/bridge?utm_source=PancakeSwap"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Bridge
-        </ButtonMenuItem>
-      </ButtonMenu>
-    </StyledNav>
+    <StyledNav/>
   )
 }
 

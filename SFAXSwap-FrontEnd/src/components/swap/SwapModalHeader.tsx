@@ -9,7 +9,7 @@ import { AutoColumn } from '../Column'
 import CurrencyLogo from '../CurrencyLogo'
 import { RowBetween, RowFixed } from '../Row'
 import { SwapShowAcceptChanges } from './styleds'
-import { Button, Text } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Button, Text } from '../../libraries/pancake-uikit/index'
 
 const PriceInfoText = styled(Text)`
   font-style: italic;

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { useUserSlippageTolerance } from 'state/user/hooks'
 import QuestionHelper from '../QuestionHelper'
-import { Box, Button, Flex, Input, Text } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Box, Button, Flex, Input, Text } from '../../libraries/pancake-uikit/index'
 
 const MAX_SLIPPAGE = 5000
 const RISKY_SLIPPAGE_LOW = 50

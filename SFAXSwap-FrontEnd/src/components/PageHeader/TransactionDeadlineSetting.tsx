@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { useUserDeadline } from 'state/user/hooks'
 import QuestionHelper from '../QuestionHelper'
-import { Input, Text, Flex, Box } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Input, Text, Flex, Box } from '../../libraries/pancake-uikit/index'
 
 const Field = styled.div`
   align-items: center;

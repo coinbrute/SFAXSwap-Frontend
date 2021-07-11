@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Card } from '../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Card } from '../libraries/pancake-uikit/index'
 
 export const BodyWrapper = styled(Card)`
   position: relative;

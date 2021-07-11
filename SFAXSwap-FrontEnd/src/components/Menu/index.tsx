@@ -3,7 +3,7 @@ import { useWeb3React } from '@web3-react/core'
 import useTheme from 'hooks/useTheme'
 import useAuth from 'hooks/useAuth'
 import links from './config'
-import { Menu as UikitMenu } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/widgets/Menu/Menu'
+import { Menu as UikitMenu } from '../../libraries/pancake-uikit/index'
 
 const Menu: any = (props) => {
   const { account } = useWeb3React()
@@ -12,7 +12,6 @@ const Menu: any = (props) => {
 
   return (
     <UikitMenu
-      links={links}
       account={account as string}
       login={login}
       logout={logout}

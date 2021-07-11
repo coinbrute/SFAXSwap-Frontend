@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Text } from '../../libraries/pancake-uikit/index'
 import { Spinner } from '../Shared'
 import { AutoColumn } from '../Column'
 import { Wrapper, Section, ConfirmedIcon, ContentHeader } from './helpers'

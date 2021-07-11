@@ -3,7 +3,7 @@ import { ThemeContext } from 'styled-components'
 import { AlertTriangle } from 'react-feather'
 import { AutoColumn } from '../Column'
 import { Wrapper, Section, BottomSection, ContentHeader } from './helpers'
-import { Button, Text } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Button, Text } from '../../libraries/pancake-uikit/index'
 
 type TransactionErrorContentProps = { message: string; onDismiss: () => void }
 

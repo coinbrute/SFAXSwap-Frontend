@@ -10,7 +10,7 @@ import DoubleCurrencyLogo from '../DoubleLogo'
 import { RowBetween } from '../Row'
 import { Input as NumericalInput } from '../NumericalInput'
 import { useActiveWeb3React } from '../../hooks'
-import { Button, ChevronDownIcon, Text } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Button, ChevronDownIcon, Text } from '../../libraries/pancake-uikit/index'
 
 const InputRow = styled.div<{ selected: boolean }>`
   display: flex;

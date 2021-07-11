@@ -12,7 +12,7 @@ import CurrencyLogo from '../CurrencyLogo'
 import Modal from '../Modal'
 import { AutoRow, RowBetween } from '../Row'
 import { AutoColumn } from '../Column'
-import { Button, Text } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Button, Text } from '../../libraries/pancake-uikit/index'
 
 const Wrapper = styled.div<{ error: boolean }>`
   background: ${({ theme }) => transparentize(0.6, theme.colors.tertiary)};

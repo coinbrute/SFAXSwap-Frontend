@@ -1,6 +1,6 @@
 import React from 'react'
 import { useAudioModeManager } from 'state/user/hooks'
-import { Box, Flex, Text, useMatchBreakpoints } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Box, Flex, Text, useMatchBreakpoints } from '../../libraries/pancake-uikit/index'
 
 type AudioSettingModalProps = {
   translateString: (translationId: number, fallback: string) => string

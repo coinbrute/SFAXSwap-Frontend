@@ -6,7 +6,7 @@ import { getBscScanLink } from '../../utils'
 import { ExternalLink } from '../Shared'
 import { AutoColumn } from '../Column'
 import { AutoRow } from '../Row'
-import { Text } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Text } from '../../libraries/pancake-uikit/index'
 
 const RowNoFlex = styled(AutoRow)`
   flex-wrap: nowrap;

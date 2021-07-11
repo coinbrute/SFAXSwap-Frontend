@@ -4,7 +4,7 @@ import { AlertTriangle } from 'react-feather'
 import Modal from '../Modal'
 import { AutoRow, RowBetween } from '../Row'
 import { AutoColumn } from '../Column'
-import { Button, Text } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Button, Text } from '../../libraries/pancake-uikit/index'
 
 const WarningContainer = styled.div`
   max-width: 420px;

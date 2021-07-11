@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react'
 import { isMobile } from 'react-device-detect'
 import { injected } from '../connectors'
 import { NetworkContextName } from '../constants'
-import { connectorLocalStorageKey } from '../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { connectorLocalStorageKey } from '../libraries/pancake-uikit/index'
 
 export function useActiveWeb3React(): Web3ReactContextInterface<Web3Provider> & { chainId?: ChainId } {
   const context = useWeb3ReactCore<Web3Provider>()

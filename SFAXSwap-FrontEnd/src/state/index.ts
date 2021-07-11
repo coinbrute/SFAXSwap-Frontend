@@ -1,4 +1,4 @@
-import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit'
+import { configureStore, getDefaultMiddleware, Middleware } from '@reduxjs/toolkit'
 import { save, load } from 'redux-localstorage-simple'
 
 import application from './application/reducer'
@@ -27,6 +27,8 @@ if (loadedState.user) {
   loadedState.user.userDarkMode = getThemeCache()
 }
 
+const saved: Middleware = save({ states: PERSISTED_KEYS });
+
 const store = configureStore({
   reducer: {
     application,
@@ -39,7 +41,7 @@ const store = configureStore({
     lists,
     toasts
   },
-  middleware: [...getDefaultMiddleware({ thunk: false }), save({ states: PERSISTED_KEYS })],
+  middleware: [...getDefaultMiddleware({ thunk: false }), saved],
   preloadedState: loadedState,
 })
 

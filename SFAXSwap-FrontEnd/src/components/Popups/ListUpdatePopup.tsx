@@ -7,7 +7,7 @@ import { acceptListUpdate } from '../../state/lists/actions'
 import listVersionLabel from '../../utils/listVersionLabel'
 import { AutoColumn } from '../Column'
 import { AutoRow } from '../Row'
-import { Button, Text } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Button, Text } from '../../libraries/pancake-uikit/index'
 
 export default function ListUpdatePopup({
   popKey,

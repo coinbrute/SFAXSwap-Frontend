@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { RowFixed } from '../Row'
-import { Text } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Text } from '../../libraries/pancake-uikit/index'
 
 export const FilterWrapper = styled(RowFixed)`
   padding: 8px;

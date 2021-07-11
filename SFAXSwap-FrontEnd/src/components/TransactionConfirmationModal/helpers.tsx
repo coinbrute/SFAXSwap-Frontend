@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
 import styled from 'styled-components'
-import { Heading, IconButton, CloseIcon } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Heading, IconButton, CloseIcon } from '../../libraries/pancake-uikit/index'
 import { AutoColumn, ColumnCenter } from '../Column'
 
 

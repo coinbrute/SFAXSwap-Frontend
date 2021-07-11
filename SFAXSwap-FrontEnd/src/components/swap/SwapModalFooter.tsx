@@ -14,7 +14,7 @@ import QuestionHelper from '../QuestionHelper'
 import { AutoRow, RowBetween, RowFixed } from '../Row'
 import FormattedPriceImpact from './FormattedPriceImpact'
 import { StyledBalanceMaxMini, SwapCallbackError } from './styleds'
-import { Text, Button } from '../../libraries/pancake-toolkit-master/packages/pancake-uikit/src/index'
+import { Text, Button } from '../../libraries/pancake-uikit/index'
 
 export default function SwapModalFooter({
   trade,
