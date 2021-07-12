@@ -10,8 +10,8 @@ const Container = styled.div`
   width: 100%;
   padding: 32px 16px;
 
-  background-image: url('/images/sfax_stars.png');
-  // background-repeat: no-repeat;
+  background: url('/images/sfax_stars.png');
+  background-repeat: no-repeat;
   // background-position: bottom 24px center;
   // background-size: 90%;
 
@@ -21,10 +21,10 @@ const Container = styled.div`
 
   ${({ theme }) => theme.mediaQueries.lg} {
     background-image: url('/images/arch-${({ theme }) => (theme.isDark ? 'dark' : 'light')}.svg'),
-      url('/images/sfax_stars.png');
+      url('images/512x512_App_Icon.png'), url('images/512x512_App_Icon.png'), url('images/sfax_stars.png');
     background-repeat: no-repeat;
-    // background-position: center 420px, 10% 230px, 90% 230px;
-    // background-size: contain, 266px, 266px;
+    background-position: center 420px, 10% 230px, 90% 230px, center;
+    background-size: contain, 266px, 266px;
     min-height: 90vh;
   }
 `
