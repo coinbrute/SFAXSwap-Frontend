@@ -20,11 +20,11 @@ const Container = styled.div`
   }
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/arch-${({ theme }) => (theme.isDark ? 'dark' : 'light')}.svg'),
+    background-image: url('/images/arch-dark.svg'),
       url('images/512x512_App_Icon.png'), url('images/512x512_App_Icon.png'), url('images/sfax_stars.png');
     background-repeat: no-repeat;
     background-position: center 420px, 10% 230px, 90% 230px, center;
-    background-size: contain, 266px, 266px;
+    background-size: contain, 266px, 266px, 100vw;
     min-height: 90vh;
   }
 `

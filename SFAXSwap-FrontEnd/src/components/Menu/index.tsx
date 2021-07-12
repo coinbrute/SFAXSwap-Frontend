@@ -9,14 +9,14 @@ const Menu: any = (props) => {
   const { account } = useWeb3React()
   const { login, logout } = useAuth()
   const { isDark, toggleTheme } = useTheme()
-
+  const dark = true;
   return (
     <UikitMenu
       account={account as string}
       login={login}
       logout={logout}
-      isDark={isDark}
-      toggleTheme={toggleTheme}
+      isDark= {dark}
+      // toggleTheme={toggleTheme}
       {...props}
     />
   )
